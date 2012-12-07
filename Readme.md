@@ -85,7 +85,9 @@ $('.name').toggle('person')
 
 Get and set attribute that doesn't already exist
 
+```js
 $('.name').attr('data-author', 'matt')
+```
 
 ## License
 
