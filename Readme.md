@@ -36,6 +36,7 @@ Get and set attributes that are on the selected element.
 
 ```js
 $('.user').type('radio').name('person')
+$('.user').type() // radio
 ```
 
 ### #text(val)
