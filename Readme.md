@@ -1,7 +1,7 @@
 
 # helix
 
-  simple templating
+  jquery-like templating. Tiny (1kb)
 
 ## Installation
 
@@ -9,12 +9,12 @@
 
 ## API
 
-### Helix()
+### Helix(el)
 
 Create a Helix instance.
 
 ```js
-var $ = Helix(el);
+var $ = Helix(document.getElementById('person'));
 ```
 
 ### $(selector)
@@ -26,7 +26,7 @@ $('.name')
 $('#nav')
 ```
 
-### #[attr](val)
+### #\[attr\](val)
 
 Get and set attributes that are on the selected element.
 
@@ -47,7 +47,7 @@ $('.name').text('Matt')
 $('.name').text() // Matt
 ```
 
-### Helix.html(val)
+### #html(val)
 
 Get and set HTML
 
@@ -56,7 +56,7 @@ $('.name').text('<strong>Matt</strong>')
 $('.name').text() // <strong>Matt</strong>
 ```
 
-### Helix.add(cls)
+### #add(cls)
 
 Add a class
 
@@ -64,7 +64,7 @@ Add a class
 $('.name').add('person')
 ```
 
-### Helix.remove(cls)
+### #remove(cls)
 
 Remove a class
 
@@ -72,7 +72,7 @@ Remove a class
 $('.name').remove('person')
 ```
 
-### Helix.toggle(cls)
+### #toggle(cls)
 
 Toggle a class
 
@@ -80,7 +80,7 @@ Toggle a class
 $('.name').toggle('person')
 ```
 
-### Helix.attr(attr, val)
+### #attr(attr, val)
 
 Get and set attribute that doesn't already exist
 
