@@ -57,7 +57,7 @@ $('.name').text('<strong>Matt</strong>')
 $('.name').text() // <strong>Matt</strong>
 ```
 
-### #add(cls)
+### #addClass(cls)
 
 Add a class
 
@@ -65,7 +65,7 @@ Add a class
 $('.name').add('person')
 ```
 
-### #remove(cls)
+### #removeClass(cls)
 
 Remove a class
 

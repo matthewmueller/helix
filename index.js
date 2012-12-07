@@ -85,7 +85,7 @@ Helix.prototype.html = function(str) {
  * @api public
  */
 
-Helix.prototype.add = function(cls) {
+Helix.prototype.addClass = function(cls) {
   this.classes(this.el).add(cls);
   return this;
 };
@@ -98,7 +98,7 @@ Helix.prototype.add = function(cls) {
  * @api public
  */
 
-Helix.prototype.remove = function(cls) {
+Helix.prototype.removeClass = function(cls) {
   this.classes(this.el).remove(cls);
   return this;
 };
