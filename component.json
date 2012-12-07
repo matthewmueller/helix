@@ -1,0 +1,13 @@
+{
+  "name": "helix",
+  "repo": "matthewmueller/helix",
+  "description": "simple templating",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "scripts": [
+    "index.js"
+  ]
+}
