@@ -9,7 +9,7 @@
   <div class="person">
     <span class="name">Matt</span>
     <span class="email">mattmuelle@gmail.com</span>
-    <span class="phone">(262) 501-2161</span>
+    <span class="phone"></span>
     <a href="/about">about</a>
   </div>
 
@@ -21,6 +21,7 @@
     $('.name').text('Harry')
     $('a').href('/me').text('me').attr('class', 'wahoo')
     $('a').html('<strong>lol</strong>')
+    $('.phone').text('1231231234');
     console.log($('a').href());
     console.log($('a').text());
     console.log($('a').class());
