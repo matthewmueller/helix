@@ -1,7 +1,7 @@
 
 # helix
 
-  jquery-like templating. Tiny (1kb)
+  jquery-like dom manipulation. Tiny (1kb minified & gzipped)
 
 ## Installation
 
