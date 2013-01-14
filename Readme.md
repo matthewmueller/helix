@@ -1,4 +1,3 @@
-
 # helix
 
   jquery-like dom manipulation. Tiny (1kb minified & gzipped)
@@ -62,7 +61,7 @@ $('.name').text() // <strong>Matt</strong>
 Add a class
 
 ```js
-$('.name').add('person')
+$('.name').addClass('person')
 ```
 
 ### #removeClass(cls)
@@ -70,7 +69,7 @@ $('.name').add('person')
 Remove a class
 
 ```js
-$('.name').remove('person')
+$('.name').removeClass('person')
 ```
 
 ### #toggle(cls)
