@@ -52,8 +52,8 @@ $('.name').text() // Matt
 Get and set HTML
 
 ```js
-$('.name').text('<strong>Matt</strong>')
-$('.name').text() // <strong>Matt</strong>
+$('.name').html('<strong>Matt</strong>')
+$('.name').html() // <strong>Matt</strong>
 ```
 
 ### #addClass(cls)
