@@ -1,0 +1,21 @@
+<html>
+<head>
+  <title>helix component</title>
+  <link rel="stylesheet" href="../build/build.css">
+</head>
+<body>
+  <div class="person" style="display: none">
+    <span class="name">Matt</span>
+    <span class="email">mattmuelle@gmail.com</span>
+    <span class="phone"></span>
+    <a href="/about">about</a>
+  </div>
+  <div id="mocha"></div>
+  <script src="../build/build.js"></script>
+  <script>require('visionmedia-mocha'); mocha.setup('bdd');</script>
+  <script src="index.js"></script>
+  <script>
+    mocha.run();
+  </script>
+</body>
+</html>

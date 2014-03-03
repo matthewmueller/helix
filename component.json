@@ -7,7 +7,10 @@
   "dependencies": {
     "component/classes" : "*"
   },
-  "development": {},
+  "development": {
+    "visionmedia/mocha": "*",
+    "chaijs/chai": "*"
+  },
   "license": "MIT",
   "scripts": [
     "index.js"
