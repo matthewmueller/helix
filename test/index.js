@@ -64,3 +64,27 @@ describe('attributes', function(){
     $('.name').attr('data-type').should.equal('first');
   })
 })
+
+describe('classes', function(){
+  it('should add a new class', function(){
+    var $ = helix(document.querySelector('.person').cloneNode(true));
+    $('a').addClass('link');
+    $('a').classes.contains('link').should.equal(true);
+  })
+
+  it('should remove a class', function(){
+    var $ = helix(document.querySelector('body').cloneNode(true));
+    $('div').classes.contains('person').should.equal(true);
+    $('div').removeClass('person');
+    $('div').classes.contains('person').should.equal(false);
+  })
+
+  it('should toggle a class', function(){
+    var $ = helix(document.querySelector('body').cloneNode(true));
+    $('div').classes.contains('person').should.equal(true);
+    $('div').toggle('person');
+    $('div').classes.contains('person').should.equal(false);
+    $('div').toggle('person');
+    $('div').classes.contains('person').should.equal(true);
+  })
+})
