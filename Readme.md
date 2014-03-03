@@ -6,6 +6,11 @@
 
     $ component install matthewmueller/helix
 
+## Tests
+
+    $ make clean && make
+    $ xdg-open test/test.html
+
 ## API
 
 ### Helix(el)
