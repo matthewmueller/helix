@@ -86,7 +86,7 @@ Helix.prototype.html = function(str) {
  */
 
 Helix.prototype.addClass = function(cls) {
-  this.classes(this.el).add(cls);
+  this.classes.add(cls);
   return this;
 };
 
@@ -99,7 +99,7 @@ Helix.prototype.addClass = function(cls) {
  */
 
 Helix.prototype.removeClass = function(cls) {
-  this.classes(this.el).remove(cls);
+  this.classes.remove(cls);
   return this;
 };
 
@@ -112,7 +112,7 @@ Helix.prototype.removeClass = function(cls) {
  */
 
 Helix.prototype.toggle = function(cls) {
-  this.classes(this.el).toggle(cls);
+  this.classes.toggle(cls);
   return this;
 };
 
